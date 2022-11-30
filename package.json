@@ -1,0 +1,16 @@
+{
+    "name": "test-electron-update",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-packager . test-app --platform=darwin --arch=x64  --overwrite"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^20.1.1",
+        "electron-packager": "^16.0.0"
+    }
+}
